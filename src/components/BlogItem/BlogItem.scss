@@ -1,0 +1,11 @@
+.blog-item_container {
+  border: 1px solid #000;
+  margin-bottom: 20px;
+
+  .nickname {
+    justify-content: flex-start;
+    display: flex;
+    color: black;
+    margin-left: 15px;
+  }
+}

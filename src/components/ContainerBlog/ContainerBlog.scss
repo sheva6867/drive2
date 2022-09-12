@@ -1,0 +1,106 @@
+.blog_page {
+  width: 960px;
+
+}
+
+.blog_header {
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    color: black;
+  }
+}
+
+.car_id {
+
+}
+
+.blog_radiogroup {
+  display: flex;
+  margin-top: 20px;
+
+  a {
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      border-radius: 99px;
+      text-decoration: none;
+      white-space: nowrap;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 30px;
+      padding: 0 15px;
+      background-color: #726f6f;
+    }
+
+
+  }
+}
+
+.blog_lenta {
+  display: flex;
+
+  .lenta_main {
+    width: 650px;
+    color: #111111;
+    background-color: aliceblue;
+    border-radius: 6px;
+    box-shadow: #726f6f;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 20px 20px 0;
+
+    .card_lenta {
+      display: flex;
+
+      .block_user {
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+
+        button {
+          padding-left: 0;
+          padding-right: 0;
+          font-weight: 700;
+          width: 90px;
+          height: 25px;
+          color: white;
+          margin-top: 10px;
+          border-radius: 99px;
+          font-size: 12px;
+          border: none;
+          background-color: #5577cc;
+        }
+      }
+    }
+  }
+}
+
+.block_doc {
+  position: relative;
+  flex: 1 1 auto;
+  //min-width: 0;
+  //margin-bottom: -20px;
+  background-color: aliceblue;
+  border-radius: 6px;
+  box-shadow: #726f6f;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 20px 20px 0;
+}
+
+lenta_sidebar {
+  width: 300px;
+  color: #111111;
+  background-color: aliceblue;
+  border-radius: 6px;
+  box-shadow: #726f6f;
+  position: relative;
+  margin-bottom: 20px;
+  padding: 20px 20px 0;
+  margin-left: 20px;
+}

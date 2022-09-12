@@ -1,0 +1,134 @@
+.blogAdd {
+  width: 940px;
+  display: flex;
+  //justify-content: center;
+  flex-direction: column;
+  background-color: #dcdcdc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  padding: 20px 20px 20px;
+  box-shadow: 0px 0px 22px 10px rgb(0 0 0 / 30%);
+
+  #title::placeholder {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #2c2c2c;
+  }
+
+  #text::placeholder {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 25px;
+    color: #2c2c2c;
+  }
+
+  .url {
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  .box {
+    width: 900px;
+    height: 530px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 5px 20px 20px;
+
+    .title {
+      flex: 1 1;
+      //position: relative;
+      display: flex;
+      border-bottom: 1px solid;
+      margin-bottom: 10px;
+    }
+
+    #title {
+      width: 100%;
+      font-size: 27px;
+      padding: 14px 10px;
+      border: none;
+    }
+
+    .text_field {
+      display: flex;
+      border-bottom: 1px solid;
+      margin-bottom: 10px;
+    }
+
+    #text {
+      border: none;
+      width: 100%;
+      padding: 14px 15px;
+      min-height: 400px;
+      max-height: calc(100vh - 130px);
+      resize: vertical;
+      font-size: 17px;
+      line-height: 25px;
+    }
+
+
+  }
+
+  .add_image {
+    margin-top: 20px;
+    width: 900px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 1px 20px 20px;
+
+    .label_icon {
+      padding: 6px 20px;
+      border-radius: 20px;
+      background: #ababab;
+      cursor: pointer;
+      color: #726f6f;
+    }
+
+    .label_icon:hover {
+      background: rgb(255, 255, 255);
+      color: black;
+      border: solid 1px;
+    }
+
+    .inputBlogFile {
+      overflow: hidden;
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 0;
+
+    }
+  }
+
+  .btn_blog {
+    margin-top: 20px;
+
+    .blogAdd-btn {
+      width: 100%;
+      height: var(--height);
+      padding: 0 calc(var(--height) * .5);
+      color: white;
+      background: #5577cc;
+      border-radius: 99px;
+      border: 0;
+      outline: 0;
+      font-weight: 700;
+      line-height: var(--height);
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+      fill: currentColor;
+      --height: 55px;
+      font-size: 20px;
+    }
+
+  }
+
+}
+
+
+

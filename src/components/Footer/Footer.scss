@@ -1,0 +1,22 @@
+.footer_body {
+  background-color: #111111;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 1.8;
+  margin: auto 0 1px 0;
+
+
+  .footer_links {
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+    a {
+      margin-right: 10px;
+    }
+  }
+
+}

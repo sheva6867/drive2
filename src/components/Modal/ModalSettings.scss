@@ -1,0 +1,62 @@
+.modal-settings {
+  position: absolute;
+  width: 235px;
+  //padding: 0 10px;
+  right: 0;
+  top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  background-color: #f8f8f8;
+  border-radius: 0px 0px 8px 8px;
+
+  button {
+    background-color: #5577cc;
+    padding: 8px 8px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .border {
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 10px;
+  }
+
+  a {
+    padding: 5px 0px 0px 10px;
+    font-weight: 500;
+    font-size: 13px;
+    color: black;
+    margin-bottom: 10px;
+
+
+    &::after {
+      content: "";
+      display: block;
+      position: relative;
+      right: 0;
+      bottom: -1px;
+      width: 0;
+      height: 2px; /* Высота линии */
+      background-color: black; /* Цвет подчеркивания при исчезании линии*/
+      transition: width 0.5s; /* Время эффекта */
+    }
+
+    &:hover:after {
+      content: "";
+      width: 100%;
+      display: block;
+      position: relative;
+      left: 0;
+      bottom: -3px;
+      height: 2px; /* Высота линии */
+      background-color: red; /* Цвет подчеркивания при появлении линии*/
+      transition: width 0.5s; /* Время эффекта */
+    }
+
+  }
+
+}

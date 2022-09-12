@@ -1,0 +1,15 @@
+.sign_page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+}
+
+.SignInPage {
+  display: flex;
+  justify-content: center;
+  //margin: 0 auto;
+  //width: 1280px;
+  background-color: white;
+  //min-height: 100vh;
+}

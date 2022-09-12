@@ -1,0 +1,45 @@
+
+.blog_menu {
+  //flex: none;
+  display: flex;
+  flex-direction: column;
+  width: 196px;
+  top: 50px;
+  margin-top: 15px;
+  align-self: flex-start;
+  position: sticky;
+  gap: 20px;
+  font-weight: 600;
+  font-size: 16px;
+
+  a {
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+
+    &::after {
+      content: "";
+      display: block;
+      position: relative;
+      right: 0;
+      bottom: -1px;
+      width: 0;
+      height: 2px; /* Высота линии */
+      background-color: black; /* Цвет подчеркивания при исчезании линии*/
+      transition: width 0.5s; /* Время эффекта */
+    }
+
+    &:hover:after {
+      content: "";
+      width: 100%;
+      display: block;
+      position: relative;
+      left: 0;
+      bottom: -3px;
+      height: 2px; /* Высота линии */
+      background-color: red; /* Цвет подчеркивания при появлении линии*/
+      transition: width 0.5s; /* Время эффекта */
+    }
+
+  }
+}

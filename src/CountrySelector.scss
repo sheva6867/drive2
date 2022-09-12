@@ -1,0 +1,30 @@
+
+label {
+  position: relative;
+  bottom: 4px;
+}
+
+select {
+  margin: 0px 10px 5px 10px;
+  padding: 3px 5px;
+  width: 170px;
+  font-size: 15px;
+  border: 1px solid #999;
+  //padding: 5px;
+  color: #333;
+  background: #fff;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  //margin-left: 10px;
+}
+
+.country-drop {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.region-drop {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}

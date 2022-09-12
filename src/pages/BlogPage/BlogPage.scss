@@ -1,0 +1,15 @@
+
+.BlogPages {
+  display: flex;
+  justify-content: center;
+  //margin: 0 auto;
+  //width: 1280px;
+  background-color: white;
+}
+
+.blog_wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+}

@@ -1,0 +1,14 @@
+.forgot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    text-align: center;
+  }
+
+  .forgot_form {
+    display: flex;
+    justify-content: center;
+  }
+}

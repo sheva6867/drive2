@@ -1,0 +1,19 @@
+.signIn_block {
+  width: 960px;
+  background-color: #f8f8f8;
+  border-radius: 6px;
+
+  .signIn_social {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .email {
+    display: flex;
+    //justify-content: space-between;
+  }
+}
+
+
+//border-top: 1px solid #f0f0f0;

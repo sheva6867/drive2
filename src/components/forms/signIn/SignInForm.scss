@@ -1,0 +1,132 @@
+.SignInForm {
+  width: 350px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #dcdcdc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px 20px 20px;
+  box-shadow: 0px 0px 22px 10px rgb(0 0 0 / 30%);
+
+  p {
+    margin: 0px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .authorization-links {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    margin-bottom: 20px;
+
+    .links {
+      align-content: center;
+
+      .links-img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  .email {
+    display: flex;
+    justify-content: center;
+
+    width: 300px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 10px;
+
+    .login {
+      top: 4px;
+      position: relative;
+    }
+
+    .input_email {
+      display: flex;
+      flex-direction: column;
+
+      p {
+        margin: 3px;
+      }
+    }
+  }
+
+  .password {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+
+    .label_password {
+      top: 4px;
+      position: relative;
+    }
+
+    .input_password {
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+
+  .form_btn {
+    padding: 10px 5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    .resetPassword_btn {
+      display: flex;
+      justify-content: center;
+      display: inline-block;
+      height: var(--height);
+      padding: 0 calc(var(--height) * .5);
+      color: black;
+      background: #f8f8f8;
+      border-radius: 99px;
+      border: 0;
+      outline: 0;
+      font-weight: 700;
+      line-height: var(--height);
+      text-decoration: none;
+      text-align: center;
+      white-space: nowrap;
+      cursor: pointer;
+      --height: 30px;
+      font-size: 15px;
+
+    }
+
+    .sign_btn {
+      display: flex;
+      justify-content: center;
+      display: inline-block;
+      height: var(--height);
+      padding: 0 calc(var(--height) * .5);
+      color: white;
+      background: #5577cc;
+      border-radius: 99px;
+      border: 0;
+      outline: 0;
+      font-weight: 700;
+      line-height: var(--height);
+      text-decoration: none;
+      text-align: center;
+      white-space: nowrap;
+      cursor: pointer;
+      --height: 30px;
+      font-size: 15px;
+    }
+  }
+
+}

@@ -1,0 +1,92 @@
+.UserMenu {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+
+  .user_card {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+
+  }
+
+  .wrapper {
+    .content {
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      //height: 100px;
+    }
+
+    .content1 {
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      height: 130px;
+    }
+
+    .show {
+      font-size: 12px;
+      margin: 4px;
+      margin-left: 10px;
+    }
+
+    .content_parent {
+      font-weight: 600;
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+      width: 260px;
+      height: 30px;
+      background-color: aliceblue;
+      color: #2c2c2c;
+      padding: 20px 20px;
+      border-radius: 12px;
+    }
+
+    .content_parent1 {
+      font-weight: 600;
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+      width: 260px;
+      height: 30px;
+      background-color: aliceblue;
+      color: #2c2c2c;
+      padding: 20px 20px;
+      border-radius: 12px 12px 0px 0px;
+    }
+
+    .content_child {
+      background-color: red;
+      height: 0px;
+      overflow: hidden;
+    }
+
+    .content_child1 {
+      height: 60px;
+      background-color: aliceblue;
+      color: #2c2c2c;
+      padding-left: 10px;
+      border-radius: 0px 0px 12px 12px;
+      animation: ani 1s forwards;
+      @keyframes ani {
+        0% {
+          transform: translateY(-100%);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+    }
+
+
+  }
+}
+
+
